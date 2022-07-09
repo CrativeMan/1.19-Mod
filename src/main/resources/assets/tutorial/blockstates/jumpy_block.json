@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "tutorial:block/jumpy_block" }
+  }
+}

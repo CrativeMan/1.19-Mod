@@ -1,0 +1,23 @@
+{
+  "comment_" : "Items",
+  "item.tutorial.zircon": "Zircon",
+  "item.tutorial.raw_zircon": "Raw Zircon",
+  "item.tutorial.warden_soul": "Warden's Soul",
+  "item.tutorial.eight_ball": "Eight Ball",
+  "item.tutorial.blueberry": "Blueberry",
+  "item.tutorial.blueberry_seeds": "Blueberry Seeds",
+
+  "comment_" : "Blocks",
+  "block.tutorial.zircon_block": "Block of Zircon",
+  "block.tutorial.zircon_ore": "Zircon Ore",
+  "block.tutorial.deepslate_zircon_ore": "Deepslate Zircon Ore",
+  "block.tutorial.netherrack_zircon_ore": "Netherrack Zircon Ore",
+  "block.tutorial.endstone_zircon_ore": "Endstone Zircon Ore",
+  "block.tutorial.jumpy_block": "Jumpy Block",
+  "block.tutorial.zircon_lamp": "Zircon Lamp",
+  "block.tutorial.blueberry_crop": "Blueberry Crop",
+
+  "comment_" : "CreativeModeInventories",
+  "itemGroup.tutorialtab": "Zircon Tab",
+  "itemGroup.wardentab": "Warden Drops"
+}
