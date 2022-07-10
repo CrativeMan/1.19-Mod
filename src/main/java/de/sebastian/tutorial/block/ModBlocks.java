@@ -1,10 +1,7 @@
 package de.sebastian.tutorial.block;
 
 import de.sebastian.tutorial.Tutorial;
-import de.sebastian.tutorial.block.custom.BlueberryCropBlock;
-import de.sebastian.tutorial.block.custom.JumpyBlock;
-import de.sebastian.tutorial.block.custom.TeleporterBlock;
-import de.sebastian.tutorial.block.custom.ZirconLampBlock;
+import de.sebastian.tutorial.block.custom.*;
 import de.sebastian.tutorial.item.ModCreativeModeTab;
 import de.sebastian.tutorial.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -64,6 +61,11 @@ public class ModBlocks {
     //Teleport Block
     public static final RegistryObject<Block> TELEPORT_BLOCK = registerBlock("teleporter_block",
             () -> new TeleporterBlock(BlockBehaviour.Properties.of(Material.STONE)
+                        .strength(6).requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);
+
+    //Teleport Block
+    public static final RegistryObject<Block> TELEPORT_OUT_BLOCK = registerBlock("teleporter_out_block",
+            () -> new TeleportOutBlock(BlockBehaviour.Properties.of(Material.STONE)
                         .strength(6).requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);
 
         //Zircon Lamp

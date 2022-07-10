@@ -19,6 +19,7 @@
   "block.tutorial.zircon_lamp": "Zircon Lamp",
   "block.tutorial.blueberry_crop": "Blueberry Crop",
   "block.tutorial.teleporter_block": "Teleporter",
+  "block.tutorial.teleporter_out_block": "Teleporter Out",
 
   "comment_" : "CreativeModeInventories",
   "itemGroup.tutorialtab": "Zircon Tab",
