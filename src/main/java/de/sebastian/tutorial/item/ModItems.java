@@ -31,6 +31,14 @@ public class ModItems {
     public static final RegistryObject <Item> WARDEN_SOUL = ITEMS.register("warden_soul",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.WARDEN_TAB).stacksTo(1)));
 
+    //Register Blood Item
+    public static final RegistryObject <Item> BLOOD = ITEMS.register("blood",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.WARDEN_TAB)));
+
+    //Register Warden_flesh Item
+    public static final RegistryObject <Item> WARDEN_FLESH = ITEMS.register("warden_flesh",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.WARDEN_TAB)));
+
     //Register Blueberry_Seeds Item
     public static final RegistryObject <Item> BLUEBERRY_SEEDS = ITEMS.register("blueberry_seeds",
             () -> new ItemNameBlockItem(ModBlocks.BLUEBERRY_CROP.get(), new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));

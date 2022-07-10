@@ -6,6 +6,8 @@
   "item.tutorial.eight_ball": "Eight Ball",
   "item.tutorial.blueberry": "Blueberry",
   "item.tutorial.blueberry_seeds": "Blueberry Seeds",
+  "item.tutorial.blood": "Blood Drops",
+  "item.tutorial.warden_flesh": "Warden_flesh",
 
   "comment_" : "Blocks",
   "block.tutorial.zircon_block": "Block of Zircon",
@@ -16,6 +18,7 @@
   "block.tutorial.jumpy_block": "Jumpy Block",
   "block.tutorial.zircon_lamp": "Zircon Lamp",
   "block.tutorial.blueberry_crop": "Blueberry Crop",
+  "block.tutorial.teleporter_block": "Teleporter",
 
   "comment_" : "CreativeModeInventories",
   "itemGroup.tutorialtab": "Zircon Tab",
