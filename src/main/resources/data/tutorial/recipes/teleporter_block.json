@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#!#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stone_bricks"
+    },
+    "!": {
+      "item": "tutorial:zircon"
+    }
+  },
+  "result": {
+    "item": "tutorial:teleporter_block"
+  }
+}

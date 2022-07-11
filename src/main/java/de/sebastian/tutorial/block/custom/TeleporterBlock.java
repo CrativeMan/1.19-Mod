@@ -9,11 +9,11 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
-import static java.lang.Math.toIntExact;
 
 import static de.sebastian.tutorial.block.custom.TeleportOutBlock.*;
 
 public class TeleporterBlock extends Block {
+
 
 
     public double posXl = lX;
@@ -27,10 +27,13 @@ public class TeleporterBlock extends Block {
 
         if(!level.isClientSide && interactionHand == InteractionHand.MAIN_HAND){
             if(player.experienceLevel > 1) {
+                if(air){
+                    System.out.println("KJldklkajfölkdöjyöl");
+                    player.giveExperienceLevels(-1);
+                    player.teleportTo(lX + 0.5, lY + 1, lZ +0.5);
 
-            player.giveExperienceLevels(-1);
-            player.teleportTo(lX + 0.5, lY + 1, lZ +0.5);
-
+                    air = false;
+                }
             } else {
                 player.sendSystemMessage(Component.nullToEmpty(failed));
             }

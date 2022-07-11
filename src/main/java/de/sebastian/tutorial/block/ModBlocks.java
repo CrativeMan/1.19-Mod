@@ -63,7 +63,7 @@ public class ModBlocks {
             () -> new TeleporterBlock(BlockBehaviour.Properties.of(Material.STONE)
                         .strength(6).requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);
 
-    //Teleport Block
+    //Teleport Out Block
     public static final RegistryObject<Block> TELEPORT_OUT_BLOCK = registerBlock("teleporter_out_block",
             () -> new TeleportOutBlock(BlockBehaviour.Properties.of(Material.STONE)
                         .strength(6).requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);

@@ -5,6 +5,8 @@
     "tutorial:netherrack_zircon_ore",
     "tutorial:endstone_zircon_ore",
     "tutorial:zircon_block",
-    "tutorial:deepslate_zircon_ore"
+    "tutorial:deepslate_zircon_ore",
+    "tutorial:teleporter_block",
+    "tutorial:teleporter_out_block"
   ]
 }
